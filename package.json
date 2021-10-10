@@ -1,0 +1,20 @@
+{
+  "name": "realtimelocation",
+  "version": "1.0.0",
+  "description": "Realtime location",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "realtime"
+  ],
+  "author": "mahmoudmahm00d",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.2.0"
+  }
+}
